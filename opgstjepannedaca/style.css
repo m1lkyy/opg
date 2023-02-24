@@ -802,15 +802,15 @@ body {
     }
 
     .contact .right .col-md-6 {
-        width: 650px;
+        width: 400px;
     }
 
     .contact .right input {
-        width: 650px;
+        width: 350px;
     }
 
     .contact .right textarea {
-        width: 650px;
+        width: 350px;
         height: 120px;
     }
 
@@ -818,8 +818,12 @@ body {
         margin-top: 50px;
     }
 
+    .contact .col-md-4 {
+        width: 450px;
+    }
+
     .contact .col-md-4 button {
-        margin-left: 210px;
+        margin-left: 0;
     }
 
     .about-us {
