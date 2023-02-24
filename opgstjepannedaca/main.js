@@ -49,8 +49,9 @@ function showSlides(n) {
     modalImg.style.width = "350px";
     modalImg.style.height = "250px";
   }
-  if(window.innerWidth < 768 && window.innerWidth > 425) {
-    document.getElementById("myModal").style.display = "none";
+  if(window.innerWidth < 768 && window.innerWidth > 320) {
+    modalImg.style.width = "150px";
+    modalImg.style.height = "100px";
   }
   
 }
