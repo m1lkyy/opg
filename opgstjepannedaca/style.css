@@ -66,7 +66,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    width: 100vw;
+    width: 100%;
     height: 80vh;
 }
 
@@ -171,7 +171,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-  
   
 .close {
     position: absolute;
@@ -596,7 +595,7 @@ body {
 
 @media screen and (max-width: 1024px) {
     .navbar .row {
-        width: 100vw;
+        width: 100%;
         margin: 0;
         margin-left: 5rem;
     }
@@ -669,11 +668,11 @@ body {
     }
 
     .contact .left {
-        width: 100vw;
+        width: 100%;
     }
 
     .contact .right {
-        width: 100vw;
+        width: 100%;
         display: flex;
         margin-left: 90px;
     }
@@ -791,12 +790,12 @@ body {
     }
 
     .contact .left {
-        width: 100vw;
+        width: 100%;
         padding: 50px;
     }
 
     .contact .right {
-        width: 100vw;
+        width: 100%;
         display: flex;
         margin-left: 40px;
     }
@@ -1121,6 +1120,159 @@ body {
 
     .contact .protection {
         width: 275px;
+    }
+
+    .contact .col-md-4 button {
+        margin-left: 0;
+    }
+
+    .about-us {
+        width: 100%;
+        height: 100%;
+        padding: 150px 0;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar .row {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar .col-md-10 {
+        width: 100%;
+    } 
+
+    .navbar h1 {
+        font-size: 16px;
+    }
+
+    .navbar .col-md-2 {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main h1 {
+        font-size: 28px;
+    }
+
+    .main p {
+        font-size: 10px;
+    }
+
+    .main .contact-us {
+        margin-top: 0;
+        padding: 0.5rem;
+    }
+
+    .photo-gallery {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .photo-gallery h1 {
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
+
+    .photo-gallery .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2.5rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .photo-gallery img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .review {
+        width: 100%;
+        height: 40vh;
+        padding: 0 10px;
+    }
+
+    .review .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .review h3 {
+        font-size: 16px;
+        width: 275px;
+    }
+
+    .review p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .about {
+        width: 100%;
+        height: 100%;
+        padding: 100px 0;
+    }
+
+    .about .container {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .about .row {
+        display: inline-block;
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .about .col-md-4 {
+        width: 100%;
+        display: inline;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact .left {
+        padding: 0 20px;
+    }
+
+    .contact .right {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .contact .right .col-md-6 {
+        width: 250px;
+    }
+
+    .contact .right input {
+        width: 250px;
+    }
+
+    .contact .right textarea {
+        width: 250px;
+        height: 80px;
+    }
+
+    .contact .bottom {
+        margin-top: 0;
+    }
+
+    .contact .protection {
+        width: 250px;
     }
 
     .contact .col-md-4 button {
