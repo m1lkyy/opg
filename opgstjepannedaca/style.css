@@ -419,8 +419,7 @@ body {
     font-weight: 500;
     margin: 0 20px;
     transition: 0.5s ease;
-    text-decoration-line: underline;
-    text-decoration-color: #000;
+    text-decoration: none;
 }
 
 .footer .home:hover {
@@ -433,8 +432,7 @@ body {
     color: #fff;
     margin: 0 5px;
     transition: 0.5s ease;
-    text-decoration-line: underline;
-    text-decoration-color: #000;
+
 }
 
 .footer a i:hover {
