@@ -984,3 +984,157 @@ body {
         height: 100%;
     }
 }
+
+
+@media screen and (max-width: 375px) {
+    .navbar .row {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar .col-md-10 {
+        width: 100%;
+    } 
+
+    .navbar h1 {
+        font-size: 16px;
+    }
+
+    .navbar .col-md-2 {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main h1 {
+        font-size: 32px;
+    }
+
+    .main p {
+        font-size: 14px;
+    }
+
+    .main .contact-us {
+        margin-top: 0;
+        padding: 0.5rem;
+    }
+
+    .photo-gallery {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .photo-gallery h1 {
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
+
+    .photo-gallery .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2.5rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .photo-gallery img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .review {
+        width: 100%;
+        height: 40vh;
+        padding: 0 10px;
+    }
+
+    .review .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .review h3 {
+        font-size: 20px;
+        width: 320px;
+    }
+
+    .review p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .about {
+        width: 100%;
+        height: 100%;
+        padding: 100px 0;
+    }
+
+    .about .container {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .about .row {
+        display: inline-block;
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .about .col-md-4 {
+        width: 100%;
+        display: inline;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact .left {
+        padding: 0 20px;
+    }
+
+    .contact .right {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .contact .right .col-md-6 {
+        width: 275px;
+    }
+
+    .contact .right input {
+        width: 275px;
+    }
+
+    .contact .right textarea {
+        width: 275px;
+        height: 80px;
+    }
+
+    .contact .bottom {
+        margin-top: 0;
+    }
+
+    .contact .protection {
+        width: 275px;
+    }
+
+    .contact .col-md-4 button {
+        margin-left: 0;
+    }
+
+    .about-us {
+        width: 100%;
+        height: 100%;
+        padding: 150px 0;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+    }
+}
