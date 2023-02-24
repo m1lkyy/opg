@@ -953,11 +953,11 @@ body {
     }
 
     .contact .right input {
-        width: 300px;
+        width: 275px;
     }
 
     .contact .right textarea {
-        width: 300px;
+        width: 275px;
         height: 120px;
     }
 
@@ -966,7 +966,7 @@ body {
     }
 
     .contact .protection {
-        width: 375px;
+        width: 275px;
     }
 
     .contact .col-md-4 button {
@@ -1103,15 +1103,15 @@ body {
     }
 
     .contact .right .col-md-6 {
-        width: 275px;
+        width: 250px;
     }
 
     .contact .right input {
-        width: 275px;
+        width: 250px;
     }
 
     .contact .right textarea {
-        width: 275px;
+        width: 250px;
         height: 80px;
     }
 
@@ -1120,7 +1120,7 @@ body {
     }
 
     .contact .protection {
-        width: 275px;
+        width: 250px;
     }
 
     .contact .col-md-4 button {
@@ -1256,15 +1256,15 @@ body {
     }
 
     .contact .right .col-md-6 {
-        width: 250px;
+        width: 200px;
     }
 
     .contact .right input {
-        width: 250px;
+        width: 200px;
     }
 
     .contact .right textarea {
-        width: 250px;
+        width: 200px;
         height: 80px;
     }
     
@@ -1277,7 +1277,7 @@ body {
     }
 
     .contact .protection {
-        width: 250px;
+        width: 200px;
     }
 
     .contact .col-md-4 button {
