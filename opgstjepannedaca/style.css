@@ -1155,7 +1155,7 @@ body {
     }
 
     .navbar .col-md-2 {
-        display: none;
+        display: block;
     }
 
     .main {
