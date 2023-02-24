@@ -949,15 +949,15 @@ body {
     }
 
     .contact .right .col-md-6 {
-        width: 300px;
+        width: 350px;
     }
 
     .contact .right input {
-        width: 300px;
+        width: 350px;
     }
 
     .contact .right textarea {
-        width: 300px;
+        width: 350px;
         height: 120px;
     }
 
@@ -966,7 +966,7 @@ body {
     }
 
     .contact .protection {
-        width: 300px;
+        width: 350px;
     }
 
     .contact .col-md-4 button {
