@@ -1,5 +1,5 @@
 body {
-    max-width: 99vw;
+    max-width: 100%;
     max-height: 100vh;
     overflow-x: hidden;
 }
@@ -848,7 +848,7 @@ body {
     }
 
     .navbar .col-md-2 {
-        display: block;
+        display: none;
     }
 
     .main {
@@ -953,7 +953,7 @@ body {
     }
 
     .contact .right input {
-        width: 375px;
+        width: 300px;
     }
 
     .contact .right textarea {
