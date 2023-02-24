@@ -1267,6 +1267,10 @@ body {
         width: 250px;
         height: 80px;
     }
+    
+    .navbar .col-md-2 {
+        display: block;
+    }
 
     .contact .bottom {
         margin-top: 0;
