@@ -42,7 +42,7 @@ body {
 }
 
 .navbar .col-md-10 {
-    width: 70vw;
+    width: 80vw;
 }
 
 .navbar .col-md-2 {
@@ -411,7 +411,7 @@ body {
 }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1620px) {
     .navbar .col-md-10 {
         width: 60vw;
     } 
@@ -731,11 +731,11 @@ body {
     }
 
     .navbar .col-md-10 {
-        width: 40vw;
+        width: 80vw;
     } 
 
     .navbar .col-md-2 {
-        justify-content: flex-end;
+        display: none;
     }
 
     .main {
