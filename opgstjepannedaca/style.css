@@ -1256,15 +1256,15 @@ body {
     }
 
     .contact .right .col-md-6 {
-        width: 200px;
+        width: 250px;
     }
 
     .contact .right input {
-        width: 200px;
+        width: 250px;
     }
 
     .contact .right textarea {
-        width: 200px;
+        width: 250px;
         height: 80px;
     }
     
@@ -1277,7 +1277,7 @@ body {
     }
 
     .contact .protection {
-        width: 200px;
+        width: 250px;
     }
 
     .contact .col-md-4 button {
