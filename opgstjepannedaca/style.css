@@ -953,11 +953,11 @@ body {
     }
 
     .contact .right input {
-        width: 275px;
+        width: 300px;
     }
 
     .contact .right textarea {
-        width: 275px;
+        width: 300px;
         height: 120px;
     }
 
@@ -966,7 +966,7 @@ body {
     }
 
     .contact .protection {
-        width: 275px;
+        width: 300px;
     }
 
     .contact .col-md-4 button {
