@@ -618,7 +618,9 @@ body {
     }
 
     .footer {
-        padding: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 15vh;
         width: 100%;
     }
@@ -802,10 +804,6 @@ body {
     .review {
         width: 100%;
     }
-    
-    .review h3 {
-        width: 330px;
-    }
 
     .about {
         height: 80vh;
@@ -941,8 +939,8 @@ body {
     }
 
     .review h3 {
-        font-size: 16px;
-        width: 320px;
+        font-size: 18px;
+        width: 380px;
     }
 
     .review p {
