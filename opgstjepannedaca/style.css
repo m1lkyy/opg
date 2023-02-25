@@ -802,6 +802,10 @@ body {
     .review {
         width: 100%;
     }
+    
+    .review h3 {
+        width: 330px;
+    }
 
     .about {
         height: 80vh;
