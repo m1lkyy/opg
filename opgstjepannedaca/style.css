@@ -58,6 +58,10 @@ body {
     margin: 0 10px;
 }
 
+.navbar .callUsBtn {
+    margin: 0;
+}
+
 .navbar a i {
     font-size: 25px;
 }
